@@ -1,0 +1,21 @@
+.demo-inline-calendar-card {
+    width: 300px;
+    position: absolute;
+    transform: translate(25%,50%);
+    background-color:bisque;
+  }
+  @media(min-width:400)
+  {
+    .demo-inline-calendar-card{
+        transform: translate(25%,50%);
+    }
+  }
+  @media(min-width:600)
+  {
+    .demo-inline-calendar-card{
+        transform: translate(50%,50%);
+    }
+  }
+  .button{
+    background-color: blueviolet;
+  }

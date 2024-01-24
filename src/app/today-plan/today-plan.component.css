@@ -1,0 +1,21 @@
+.mat-card{
+    background-color: aquamarine;
+    display: flex;
+    max-width: 400px;
+    height: auto;
+    transform: translate(300%,500%);
+}
+body, h1, h2, h3, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width:600px) {
+    .mat-card{
+        transform: translate(0,0);
+        position: absolute;
+    }}
+    @media (min-width:400px) {
+        .mat-card{
+            transform: translate(0,200%);
+        }
+  }

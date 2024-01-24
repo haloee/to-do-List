@@ -1,0 +1,16 @@
+<div class="mat-card">
+  <mat-card>
+    <mat-card-actions>
+      <mat-card-header>
+        <section>
+          <ul>
+            <li *ngFor="let activity of activities">
+              <mat-slide-toggle [(ngModel)]="activity.selected">{{ activity.name }}</mat-slide-toggle>
+            </li>
+          </ul>
+          <button mat-raised-button (click)="onSave()">Save</button>
+        </section>
+      </mat-card-header>
+    </mat-card-actions>
+  </mat-card>
+</div>

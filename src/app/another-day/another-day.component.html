@@ -1,0 +1,13 @@
+<p>another-day works!</p>
+<mat-card class="demo-inline-calendar-card">
+    <mat-calendar [(selected)]="selected"></mat-calendar>
+    <ul>
+        <li *ngFor="let activity of activities">
+          <mat-slide-toggle [(ngModel)]="activity.selected">{{ activity.name }}</mat-slide-toggle>
+          
+        </li>
+      </ul>
+      <button mat-raised-button (click)="onSave()">Save</button>
+  </mat-card>
+  <p>Selected date: {{selected}}</p>
+  

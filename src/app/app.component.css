@@ -1,0 +1,27 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-toolbar{
+    background-color: cadetblue;
+    height: 100px;
+  }
+  .button{
+    margin: 10px;
+    background-color: aqua;
+  }
+  .body{
+    background-color: black;
+    
+  }
+
+
+.active-link {
+    font-weight: bold;
+    color: greenyellow;
+  }
+  #container{
+    width: 100vw;  
+    height: 100vh;
+    background-color:cornflowerblue;
+    background-size: cover;
+  }
