@@ -1,7 +1,7 @@
 .mat-card{
     background-color: aquamarine;
     display: flex;
-    max-width: 400px;
+    max-width: 300px;
     height: auto;
     transform: translate(300%,500%);
 }

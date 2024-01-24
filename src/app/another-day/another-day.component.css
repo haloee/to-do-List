@@ -1,5 +1,5 @@
 .demo-inline-calendar-card {
-    width: 300px;
+    max-width: 300px;
     position: absolute;
     transform: translate(25%,50%);
     background-color:bisque;
